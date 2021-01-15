@@ -69,6 +69,12 @@ spl_autoload_register('\\src\\Loader::autoload');
 //$overcoat->decorate($tShirt);
 //$overcoat->display();
 
+//9迭代器模式
+//$data = [2,3,4,6];
+//$it = new src\SimpleIterator($data);
+//foreach ($it as $k => $v) {
+//    print "键值对 -- key $k: value $v\n";
+//}
 
 
 
