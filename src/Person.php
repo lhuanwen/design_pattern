@@ -21,7 +21,7 @@ class Person implements IComponent
 
     public function display()
     {
-        echo $this->name . PHP_EOL;
+        echo $this->name;
     }
 
 }

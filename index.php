@@ -20,6 +20,11 @@ spl_autoload_register('\\src\\Loader::autoload');
 //2简单工厂模式
 //$obj = src\SimpleFactory::createRedis();
 //var_dump($obj);
+//抽象工厂模式
+//$obj1 = (new src\ProductFactory)->createShippableProduct();
+//$obj2 = (new src\ProductFactory)->createDigitalProduct();
+//静态工厂模式
+//$obj = (new src\StaticFactory())::factory('number');
 
 //3注册模式
 //$register = new src\Register();
