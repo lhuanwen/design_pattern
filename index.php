@@ -73,6 +73,9 @@ spl_autoload_register('\\src\\Loader::autoload');
 //    print "键值对 -- key $k: value $v\n";
 //}
 
+//10代理模式
+//src\Client::shopping('PHP');
+
 
 
 
