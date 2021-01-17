@@ -17,14 +17,11 @@ spl_autoload_register('\\src\\Loader::autoload');
 //var_dump($obj1);
 //var_dump($obj2);
 
-//2简单工厂模式
-//$obj = src\SimpleFactory::createRedis();
-//var_dump($obj);
-//抽象工厂模式
-//$obj1 = (new src\ProductFactory)->createShippableProduct();
-//$obj2 = (new src\ProductFactory)->createDigitalProduct();
-//静态工厂模式
-//$obj = (new src\StaticFactory())::factory('number');
+//2简单工厂模式 https://www.zhihu.com/question/20367734
+//src\factory\MouseFactory::createMouse(0)->sayHi();
+//src\factory\MouseFactory::createMouse(1)->sayHi();
+//工厂模式...
+//抽象工厂模式...
 
 //3注册模式
 //$register = new src\Register();
