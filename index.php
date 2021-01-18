@@ -45,7 +45,15 @@ spl_autoload_register('\\src\\Loader::autoload');
 //$output = new src\Output(new src\strategy\Serialize()); //输出序列化
 //var_dump($output->renderOutput($test));
 
-//6观察者模式
+//6数据对象映射模式
+//$book = new src\Book();
+//$book->setId(1);
+//$book->setIsbn('no');
+//$book->setName('PHP');
+//$book->setPrice(10);
+//$book->save();
+
+//7观察者模式
 //$email = new src\observer\Email();
 //$message = new src\observer\Message();
 //$obj = new src\Order();
@@ -53,12 +61,12 @@ spl_autoload_register('\\src\\Loader::autoload');
 //$obj->attach($message);
 //$obj->notify();
 
-//7原型模式
+//8原型模式
 //$prototype = new src\Prototype();
 //$obj1 = clone $prototype;
 //$obj2 = clone $prototype;
 
-//8装饰器模式
+//9装饰器模式
 //$obj = new src\Person('自己');
 //$tShirt = new src\decorator\TShirt();
 //$overcoat = new src\decorator\Overcoat();
@@ -66,14 +74,14 @@ spl_autoload_register('\\src\\Loader::autoload');
 //$overcoat->decorate($tShirt);
 //$overcoat->display();
 
-//9迭代器模式
+//10迭代器模式
 //$data = [2,3,4,6];
 //$it = new src\SimpleIterator($data);
 //foreach ($it as $k => $v) {
 //    print "键值对 -- key $k: value $v\n";
 //}
 
-//10代理模式
+//11代理模式
 //src\Client::shopping('PHP');
 
 
